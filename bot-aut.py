@@ -7,8 +7,8 @@ from iqoptionapi.stable_api import IQ_Option
 # =========================
 # 🔎 1. Conexão e Inicialização
 # =========================
-EMAIL = "SEU_EMAIL"
-SENHA = "SUA_SENHA"
+EMAIL = "vladimirmendes86@gmail.com"
+SENHA = "160915"
 PAR = "EURUSD-OTC"
 TIMEFRAME = 5  # 1 = M1, 5 = M5
 STOP_WIN_PCT = 0.10   # 10%
@@ -148,7 +148,7 @@ while True:
     agora = datetime.now()
 
     # horário permitido (09:00 - 18:00)
-    if not (9 <= agora.hour < 18):
+    if not (1 <= agora.hour < 23.59):
         print("⏸ Fora do horário de operação...")
         time.sleep(60)
         continue
