@@ -2,3 +2,4 @@ streamlit
 iqoptionapi
 pandas
 numpy
+iqoptionapi.git
