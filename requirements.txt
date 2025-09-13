@@ -1,5 +1,7 @@
 streamlit
-iqoptionapi
 pandas
 numpy
-iqoptionapi.git
+pylint
+requests
+websocket-client
+iqoptionapi
