@@ -7,8 +7,8 @@ from iqoptionapi.stable_api import IQ_Option
 # =========================
 # 🔎 1. Conexão e Inicialização
 # =========================
-EMAIL = "email"
-SENHA = "senha"
+EMAIL = "vladimirmendes86@gmail.com"
+SENHA = "160915"
 PAR = "EURUSD-OTC"
 TIMEFRAME = 5  # 1 = M1, 5 = M5
 STOP_WIN_PCT = 0.10   # 10%
